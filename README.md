@@ -15,7 +15,7 @@ I've decided to create a Roman numerals converter in HTML, CSS, and JavaScript. 
 
 - Below you can have a view of my page:
 
-[Palindrome-Checker](https://limasahibzada.github.io/Palindrome-Checker/)
+[Roman-Numerals-Converter](https://limasahibzada.github.io/Roman-Numerals-Converter/)
 
 
 
@@ -37,7 +37,7 @@ To check my project, you ahould follow below steps.
 go to your computer local machine and use this command,
 
 ```bash
-git clone git@github.com:LimaSahibzada/Palindrome-Checker.git
+git clone git@github.com:LimaSahibzada/Roman-Numerals-Converter.git
 
 ```
 after cloning write this command:
@@ -60,7 +60,7 @@ code .
 
 
 ```bash
-git clone git@github.com:LimaSahibzada/Palindrome-Checker.git
+git clone git@github.com:LimaSahibzada/Roman-Numerals-Converter.git
 ```
 
 
@@ -70,21 +70,17 @@ git clone git@github.com:LimaSahibzada/Palindrome-Checker.git
 
 My webpage stand out from other pages in the following ways:
 
-- User-Friendly Interface: The page features a clean and intuitive design, making it easy for users to input their text and check for palindromes.
+- A clear and intuitive input field where users can enter a number to be converted.
 
-- Instant Feedback: As soon as the user submits their text, the checker instantly analyzes it and provides feedback on whether it is a palindrome or not.
+- A prominent button labeled "Convert" to initiate the conversion process.
 
-- Case and Space Insensitive: The checker ignores case differences and spaces, allowing users to check phrases and sentences without worrying about formatting.
+- Ensures the page looks good and functions well on both desktop and mobile devices.
 
-- Highlighted Results: The results are displayed in a visually appealing manner, with palindromes highlighted to emphasize the symmetry.
+- asy-to-read fonts and clear labeling for all elements.
 
-- Clear Instructions: The page includes clear instructions on how to use the checker, ensuring that even first-time visitors can navigate and use the tool effectively.
+- Guides users with helpful error messages to correct their input.
 
-- Responsive Design: The palindrome checker page is fully responsive, providing a seamless experience on both desktop and mobile devices.
 
-- Interactive Elements: Features interactive elements such as buttons and text input fields that enhance user engagement and provide a smooth user experience.
-
-- having light and dark mode
 
 
 
