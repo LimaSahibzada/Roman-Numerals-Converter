@@ -26,7 +26,7 @@ function convertToRoman(num) {
   return romanNumeral;
 }
 
-document.getElementById('convert-btn').addEventListener('click', function convertNumberToRoman() {
+document.getElementById('convert-btn').addEventListener('click', () => {
   const numberInput = document.getElementById('number').value;
   const output = document.getElementById('output');
 
