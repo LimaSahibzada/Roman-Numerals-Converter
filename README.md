@@ -2,7 +2,7 @@
 
 ## Project Description 📝
 
-> this is a Palindrome checker . my secound project in javascript 😊 .
+> this is a Roman Numerals Converter . my secound project in javascript 😊 .
 
 I've decided to create a Roman numerals converter in HTML, CSS, and JavaScript. I am inspired to create this page because it is an excellent way to combine learning with practical application.Additionally, this project can be a fun and engaging way to delve into ancient numeral systems while honing your programming abilities.
 
