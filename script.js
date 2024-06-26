@@ -1,4 +1,32 @@
-document.getElementById('convert-btn').addEventListener('click', function () {
+function convertToRoman(num) {
+  const romanNumeralMap = [
+    { value: 1000, numeral: 'M' },
+    { value: 900, numeral: 'CM' },
+    { value: 500, numeral: 'D' },
+    { value: 400, numeral: 'CD' },
+    { value: 100, numeral: 'C' },
+    { value: 90, numeral: 'XC' },
+    { value: 50, numeral: 'L' },
+    { value: 40, numeral: 'XL' },
+    { value: 10, numeral: 'X' },
+    { value: 9, numeral: 'IX' },
+    { value: 5, numeral: 'V' },
+    { value: 4, numeral: 'IV' },
+    { value: 1, numeral: 'I' },
+  ];
+
+  let romanNumeral = '';
+  romanNumeralMap.forEach(({ value, numeral }) => {
+    while (num >= value) {
+      romanNumeral += numeral;
+      num -= value;
+    }
+  });
+
+  return romanNumeral;
+}
+
+document.getElementById('convert-btn').addEventListener('click', function convertNumberToRoman() {
   const numberInput = document.getElementById('number').value;
   const output = document.getElementById('output');
 
@@ -17,30 +45,3 @@ document.getElementById('convert-btn').addEventListener('click', function () {
     output.textContent = convertToRoman(number);
   }
 });
-
-function convertToRoman(num) {
-  const romanNumeralMap = [
-    { value: 1000, numeral: 'M' },
-    { value: 900, numeral: 'CM' },
-    { value: 500, numeral: 'D' },
-    { value: 400, numeral: 'CD' },
-    { value: 100, numeral: 'C' },
-    { value: 90, numeral: 'XC' },
-    { value: 50, numeral: 'L' },
-    { value: 40, numeral: 'XL' },
-    { value: 10, numeral: 'X' },
-    { value: 9, numeral: 'IX' },
-    { value: 5, numeral: 'V' },
-    { value: 4, numeral: 'IV' },
-    { value: 1, numeral: 'I' }
-  ];
-
-  let romanNumeral = '';
-  for (const { value, numeral } of romanNumeralMap) {
-    while (num >= value) {
-      romanNumeral += numeral;
-      num -= value;
-    }
-  }
-  return romanNumeral;
-}
