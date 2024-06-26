@@ -17,3 +17,36 @@ body {
   width: 80%;
   max-width: 400px;
 }
+
+h1 {
+  font-size: 24px;
+}
+
+input[type="number"] {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #311b42;
+  background: #aeacac;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #311b42;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  columns: white;
+}
+
+#output {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #333;
+}
